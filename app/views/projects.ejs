@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/about.css" />
+</head>
+
+<body>
+    <%- include("./nav.ejs") %>
+        <div class="container">
+            <h2>Project</h2>
+            <img src="img/project.jpg" class="people_img" style="position: absolute; top: 1px;; right: 1px;"> 
+            <table class="table" style="margin-top: 26px;">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Awards</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-success">
+                        <td>Foreign Research Press Speech Contest</td>
+                        <td>a speech contest involves participants delivering speeches on a specific topic or theme.
+                            Participants are usually required to prepare and present a well-structured and compelling
+                            speech within a given time limit. </td>
+
+                        <td>National second prize</td>
+                    </tr>
+                    <tr>
+                        <td>Jiangsu Province vocational skills Competition</td>
+                        <td>The Jiangsu Province Vocational Skills Competition is an event held in Jiangsu Province,
+                            China, that showcases and recognizes the skills and expertise of vocational workers across
+                            various industries. </td>
+
+                        <td>Provincial third prize</td>
+                    </tr>
+
+                    <tr class="table-success">
+                        <td>Brics Skills Development and Technological Innovation Competition</td>
+                        <td>A skills development and technological innovation competition within the BRICS framework
+                            would likely aim to promote and showcase the skills and innovations of individuals and teams
+                            from these countries.</td>
+
+                        <td>Not yet started</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+</body>
+
+</html>

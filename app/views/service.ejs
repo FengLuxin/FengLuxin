@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/about.css" />
+</head>
+
+<body>
+    <%- include("./nav.ejs") %>
+        <div class="container">
+            <h2>Services</h2>
+            <img src="img/service.jfif" class="people_img" style="position: absolute; top: 1px;; right: 1px;"> 
+            <table class="table" style="margin-top: 35px;">
+                <thead>
+                    <tr>
+                        <th>Programming Name</th>
+                        <th>Description</th>
+                        <th>Proficiency</th>
+                     </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-success">
+                        <td>C#</td>
+                        <td>C# is a modern, general-purpose programming language developed by Microsoft as part of the .NET framework.</td>
+                       
+                        <td>Dexterity</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Java is a popular, general-purpose programming language known for its platform independence, which means Java code can run on different operating systems with minimal modifications. </td>
+                       
+                        <td>Normal</td>
+                    </tr>
+
+                    <tr class="table-success">
+                        <td>Pyhon</td>
+                        <td>Python is a high-level, interpreted programming language known for its simplicity and readability.
+                   It emphasizes code readability and clean syntax, making it easy to learn and understand.</td>
+                       
+                           <td>Normal</td>
+                               <tr>
+                        <td>JavaScript</td>
+                        <td>JavaScript is a versatile scripting language primarily used for web development.It is a dynamic, high-level language that runs in web browsers and enables interactive and dynamic functionality on websites. </td>
+                       
+                        <td>Dexterity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+</body>
+
+</html>

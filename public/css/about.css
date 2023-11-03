@@ -1,0 +1,86 @@
+#homehero { height: 300px;
+    background-image: url(coast.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#yurthero { height: 300px;
+    background-image: url("yurt.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#trailhero { height: 300px;width: 300px;
+    background-image: url("../Feng Luxin/个人照片.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h1 { margin-bottom: 0;
+text-align: center;
+font-size: 2em;
+letter-spacing: 0.29em;
+margin-top: 0;
+font-family: 'Times New Roman', Times, serif; }
+h2 { color: #3399CC; 
+font-family: Georgia, 'Times New Roman', serif; 
+text-shadow: 1px 1px 1px #CCCCCC; 
+}
+h3 { color: #000033;
+font-family: Georgia, 'Times New Roman', serif; }
+
+
+
+footer { font-size: 75%;
+font-style: italic;
+text-align: center;
+font-family: Georgia, 'Times New Roman', serif; 
+padding: 20px;
+}
+dt { color: #000033; }
+.resort { color: #5C7FA3; 
+  font-weight: bold;
+}
+#contact { font-size: 90%; }
+.container {
+    position: relative;
+}
+.people_img{
+    width: 178px;
+    position: absolute;
+    right: 1px;
+}
+
+.star {
+    margin: 200px auto 0;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-color: red transparent transparent transparent;
+    border-width: 41.41px 57.06px;
+    border-style: solid;
+  }
+
+  .star::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -57.06px;
+    top: -41.41px;
+    border-color: red transparent transparent transparent;
+    border-width: 41.41px 57.06px;
+    border-style: solid;
+    transform: rotate(72deg);
+    transform-origin: 50% 22.5%;
+  }
+
+
+  .star::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -57.06px;
+    top: -41.41px;
+    border-color: red transparent transparent transparent;
+    border-width: 41.41px 57.06px;
+    border-style: solid;
+    transform: rotate(-72deg);
+    transform-origin: 50% 22.5%;
+  }

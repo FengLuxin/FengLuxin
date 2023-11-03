@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>
+      <%= title %>
+   </title>
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+   <link rel="stylesheet" href="css/about.css" />
+</head>
+
+<body>
+   <%- include("./nav.ejs") %>
+      <div class="container" style="background-image: url(img/R-C.jpg);height: 500px;">
+         <!-- <img src="img/R-C.jpg"> -->
+         <div style="position: relative">
+            <div style="width: 500px;position: absolute;top: 80px;">
+               <h2>Brief Introduction</h2>
+               <p> <b>Name:</b> Feng Luxin <br>
+                  <br>
+                  <b>Age:</b> 20 <br>
+                  <br>
+                  <b>Sex:</b> Female <br>
+                  <br>
+                  <b>Major:</b> Software Engineering Technician <br>
+                  <br>
+                  <b>Educational Background：</b>SCC<br>
+                  <br>
+                  <b>Favorite Song:</b> Look At Me Now -Charlie Puth
+               </p>
+            </div>
+            <div style="position: absolute;top: 246px;right: 1px;">
+               <video width="250" height="250" id="myVideo" controls autoplay>
+                  <source src="video/lookatmenow.mp4" type="video/mp4">
+
+                  <object data="video/lookatmenow.mp4">
+
+                  </object>
+               </video>
+            </div>
+         </div>
+      </div>
+      <script>
+         window.onload = function () {
+            var vid = document.getElementById("myVideo");
+            debugger
+            vid.oncanplaythrough = function () {
+               debugger
+               
+               vid.play();
+               
+            };
+         };
+
+      </script>
+
+
+</body>
+
+</html>
